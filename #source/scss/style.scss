@@ -1,0 +1,36 @@
+@import "_nullstyle";
+body {
+	background-color: #ddd;
+	padding: 50px;
+}
+input {
+}
+.enter {
+	padding: 0 0 0 100px;
+}
+.block {
+	margin: 0 auto;
+	max-width: 600px;
+}
+.button {
+	transition: all 0.5s ease 0s;
+	background-color: rgb(0, 255, 64);
+	display: block;
+	width: 400px;
+	height: 80px;
+	color: rgb(71, 0, 165);
+	font-size: 30px;
+	border: 3px solid rgb(4, 139, 11);
+	border-radius: 10px;
+	&:hover {
+		box-shadow: 0px 6px 7px 4px green;
+	}
+	&:active {
+		margin-top: 5px;
+		box-shadow: 0px 1px 7px 4px green;
+		margin-bottom: -5px;
+	}
+}
+.act {
+	margin: 50px auto;
+}
